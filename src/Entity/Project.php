@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace AdzerCMS\Builder\Entity;
 
+use AdzerCMS\Builder\ProjectAccess;
 use AdzerCMS\Builder\Repository\ProjectRepository;
 use AdzerCMS\Core\Entity\User;
 use Doctrine\DBAL\Types\Types;
@@ -25,6 +26,12 @@ class Project
 
     #[ORM\Column(type: Types::DATETIME_IMMUTABLE)]
     private \DateTimeImmutable $edited;
+
+    #[ORM\Column(length: 16, enumType: ProjectAccess::class, options: ['default' => 'personal'])]
+    private ProjectAccess $access = ProjectAccess::Personal;
+
+    #[ORM\Column(length: ProjectVersion::COVER, nullable: true)]
+    private ?string $cover = null;
 
     public function __construct(
         #[ORM\ManyToOne]
@@ -51,9 +58,32 @@ class Project
         return $this->name;
     }
 
+    public function getCover(): ?string
+    {
+        return $this->cover;
+    }
+
+    public function present(string $name, string $cover): void
+    {
+        $this->name = $name;
+        $this->cover = $cover;
+        $this->touch();
+    }
+
     public function getEdited(): \DateTimeImmutable
     {
         return $this->edited;
+    }
+
+    public function getAccess(): ProjectAccess
+    {
+        return $this->access;
+    }
+
+    public function setAccess(ProjectAccess $access): void
+    {
+        $this->access = $access;
+        $this->touch();
     }
 
     public function touch(): void

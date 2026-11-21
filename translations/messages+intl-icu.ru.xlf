@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
   <file id="messages.ru">
+    <unit id="builder.access.action">
+      <segment>
+        <source>builder.access.action</source>
+        <target>Доступ к проекту</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.column">
+      <segment>
+        <source>builder.access.column</source>
+        <target>Доступ</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.current">
+      <segment>
+        <source>builder.access.current</source>
+        <target>Доступ: {access}</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.granted">
+      <segment>
+        <source>builder.access.granted</source>
+        <target>Доступ к проекту «{name}»: {access}</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.link">
+      <segment>
+        <source>builder.access.link</source>
+        <target>По ссылке</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.open">
+      <segment>
+        <source>builder.access.open</source>
+        <target>По ссылке и в каталоге шаблонов</target>
+      </segment>
+    </unit>
+    <unit id="builder.access.personal">
+      <segment>
+        <source>builder.access.personal</source>
+        <target>Только мне</target>
+      </segment>
+    </unit>
     <unit id="builder.action">
       <segment>
         <source>builder.action</source>
@@ -61,6 +103,12 @@
         <target>Элементы</target>
       </segment>
     </unit>
+    <unit id="builder.event.decision">
+      <segment>
+        <source>builder.event.decision</source>
+        <target>Решение по версии проекта</target>
+      </segment>
+    </unit>
     <unit id="builder.event.offer">
       <segment>
         <source>builder.event.offer</source>
@@ -95,6 +143,24 @@
       <segment>
         <source>builder.leave</source>
         <target>Выйти из редактора? Несохранённые правки пропадут</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.decision.body">
+      <segment>
+        <source>builder.notice.decision.body</source>
+        <target>Версия «{name}» проекта: {decision}.</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.decision.reason">
+      <segment>
+        <source>builder.notice.decision.reason</source>
+        <target>Причина: {reason}</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.decision.subject">
+      <segment>
+        <source>builder.notice.decision.subject</source>
+        <target>{brand}: версия «{name}»</target>
       </segment>
     </unit>
     <unit id="builder.notice.offer.body">
@@ -193,6 +259,12 @@
         <target>Повторить</target>
       </segment>
     </unit>
+    <unit id="builder.refusal.cover">
+      <segment>
+        <source>builder.refusal.cover</source>
+        <target>Нужна обложка проекта</target>
+      </segment>
+    </unit>
     <unit id="builder.refusal.document">
       <segment>
         <source>builder.refusal.document</source>
@@ -233,6 +305,12 @@
       <segment>
         <source>builder.refusal.pages</source>
         <target>В проекте не больше {limit, plural, one {# страницы} other {# страниц}}</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.personal">
+      <segment>
+        <source>builder.refusal.personal</source>
+        <target>Передаётся только проект с доступом «Только мне»</target>
       </segment>
     </unit>
     <unit id="builder.refusal.picture">
@@ -305,6 +383,30 @@
       <segment>
         <source>builder.style</source>
         <target>Стиль</target>
+      </segment>
+    </unit>
+    <unit id="builder.templates.author">
+      <segment>
+        <source>builder.templates.author</source>
+        <target>Автор</target>
+      </segment>
+    </unit>
+    <unit id="builder.templates.empty">
+      <segment>
+        <source>builder.templates.empty</source>
+        <target>Версий проектов на одобрение нет</target>
+      </segment>
+    </unit>
+    <unit id="builder.templates.menu">
+      <segment>
+        <source>builder.templates.menu</source>
+        <target>Шаблоны</target>
+      </segment>
+    </unit>
+    <unit id="builder.templates.submitted">
+      <segment>
+        <source>builder.templates.submitted</source>
+        <target>Подана</target>
       </segment>
     </unit>
     <unit id="builder.title">
@@ -431,6 +533,36 @@
       <segment>
         <source>builder.uploaded</source>
         <target>{count, plural, one {Загружена # страница} few {Загружены # страницы} many {Загружено # страниц} other {Загружено # страницы}} без публикации</target>
+      </segment>
+    </unit>
+    <unit id="builder.version.action">
+      <segment>
+        <source>builder.version.action</source>
+        <target>Отправить на одобрение</target>
+      </segment>
+    </unit>
+    <unit id="builder.version.column">
+      <segment>
+        <source>builder.version.column</source>
+        <target>Версия</target>
+      </segment>
+    </unit>
+    <unit id="builder.version.cover">
+      <segment>
+        <source>builder.version.cover</source>
+        <target>Обложка</target>
+      </segment>
+    </unit>
+    <unit id="builder.version.current">
+      <segment>
+        <source>builder.version.current</source>
+        <target>Версия «{name}»: {decision}</target>
+      </segment>
+    </unit>
+    <unit id="builder.version.submitted">
+      <segment>
+        <source>builder.version.submitted</source>
+        <target>Версия «{name}» ждёт одобрения</target>
       </segment>
     </unit>
   </file>
