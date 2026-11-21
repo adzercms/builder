@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="builder.action">
+      <segment>
+        <source>builder.action</source>
+        <target>Builder</target>
+      </segment>
+    </unit>
+    <unit id="builder.apply">
+      <segment>
+        <source>builder.apply</source>
+        <target>Apply</target>
+      </segment>
+    </unit>
+    <unit id="builder.block.free">
+      <segment>
+        <source>builder.block.free</source>
+        <target>Free block</target>
+      </segment>
+    </unit>
+    <unit id="builder.blocks">
+      <segment>
+        <source>builder.blocks</source>
+        <target>Blocks</target>
+      </segment>
+    </unit>
+    <unit id="builder.element.box">
+      <segment>
+        <source>builder.element.box</source>
+        <target>Box</target>
+      </segment>
+    </unit>
+    <unit id="builder.element.button">
+      <segment>
+        <source>builder.element.button</source>
+        <target>Button</target>
+      </segment>
+    </unit>
+    <unit id="builder.element.line">
+      <segment>
+        <source>builder.element.line</source>
+        <target>Line</target>
+      </segment>
+    </unit>
+    <unit id="builder.element.picture">
+      <segment>
+        <source>builder.element.picture</source>
+        <target>Picture</target>
+      </segment>
+    </unit>
+    <unit id="builder.element.text">
+      <segment>
+        <source>builder.element.text</source>
+        <target>Text</target>
+      </segment>
+    </unit>
+    <unit id="builder.elements">
+      <segment>
+        <source>builder.elements</source>
+        <target>Elements</target>
+      </segment>
+    </unit>
+    <unit id="builder.event.offer">
+      <segment>
+        <source>builder.event.offer</source>
+        <target>Project transfer</target>
+      </segment>
+    </unit>
+    <unit id="builder.event.outcome">
+      <segment>
+        <source>builder.event.outcome</source>
+        <target>Outcome of a project transfer</target>
+      </segment>
+    </unit>
+    <unit id="builder.exit">
+      <segment>
+        <source>builder.exit</source>
+        <target>Exit</target>
+      </segment>
+    </unit>
+    <unit id="builder.failed">
+      <segment>
+        <source>builder.failed</source>
+        <target>The page is not saved: check the connection and save again</target>
+      </segment>
+    </unit>
+    <unit id="builder.layers">
+      <segment>
+        <source>builder.layers</source>
+        <target>Layers</target>
+      </segment>
+    </unit>
+    <unit id="builder.leave">
+      <segment>
+        <source>builder.leave</source>
+        <target>Leave the editor? The unsaved changes will be lost</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.offer.body">
+      <segment>
+        <source>builder.notice.offer.body</source>
+        <target>{sender} hands the project «{name}» over to you. Accept it in the cabinet by {expires, date, ::yMMddjmm}.</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.offer.short">
+      <segment>
+        <source>builder.notice.offer.short</source>
+        <target>{sender} hands the project «{name}» over to you, accept it in the cabinet.</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.offer.subject">
+      <segment>
+        <source>builder.notice.offer.subject</source>
+        <target>{brand}: the project «{name}» for you</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.outcome.body">
+      <segment>
+        <source>builder.notice.outcome.body</source>
+        <target>Transfer of the project «{name}»: {outcome}.</target>
+      </segment>
+    </unit>
+    <unit id="builder.notice.outcome.subject">
+      <segment>
+        <source>builder.notice.outcome.subject</source>
+        <target>{brand}: transfer of the project «{name}»</target>
+      </segment>
+    </unit>
+    <unit id="builder.pictures">
+      <segment>
+        <source>builder.pictures</source>
+        <target>Pictures</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.download">
+      <segment>
+        <source>builder.project.download</source>
+        <target>Download</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.drop">
+      <segment>
+        <source>builder.project.drop</source>
+        <target>Delete project</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.drop_confirm">
+      <segment>
+        <source>builder.project.drop_confirm</source>
+        <target>Delete the project «{name}» with its pages?</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.dropped">
+      <segment>
+        <source>builder.project.dropped</source>
+        <target>Project «{name}» deleted</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.edited">
+      <segment>
+        <source>builder.project.edited</source>
+        <target>Edited</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.name">
+      <segment>
+        <source>builder.project.name</source>
+        <target>Name</target>
+      </segment>
+    </unit>
+    <unit id="builder.project.new">
+      <segment>
+        <source>builder.project.new</source>
+        <target>New project</target>
+      </segment>
+    </unit>
+    <unit id="builder.projects.empty">
+      <segment>
+        <source>builder.projects.empty</source>
+        <target>No projects</target>
+      </segment>
+    </unit>
+    <unit id="builder.projects.menu">
+      <segment>
+        <source>builder.projects.menu</source>
+        <target>Projects</target>
+      </segment>
+    </unit>
+    <unit id="builder.redo">
+      <segment>
+        <source>builder.redo</source>
+        <target>Redo</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.document">
+      <segment>
+        <source>builder.refusal.document</source>
+        <target>The page changed after the editor opened: open the editor again</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.element">
+      <segment>
+        <source>builder.refusal.element</source>
+        <target>The free block holds an element or attribute the builder does not take</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.file">
+      <segment>
+        <source>builder.refusal.file</source>
+        <target>The file is not a project file of the builder</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.format">
+      <segment>
+        <source>builder.refusal.format</source>
+        <target>The builder of this site does not know the format {format} of the project file</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.link">
+      <segment>
+        <source>builder.refusal.link</source>
+        <target>Link {link}: a site path from /, an http(s):// address, mailto: or tel:</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.name">
+      <segment>
+        <source>builder.refusal.name</source>
+        <target>Name: 1 to {limit} characters</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.pages">
+      <segment>
+        <source>builder.refusal.pages</source>
+        <target>A project holds up to {limit, plural, one {# page} other {# pages}}</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.picture">
+      <segment>
+        <source>builder.refusal.picture</source>
+        <target>A picture of the free block is not found, upload it again</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.pictures">
+      <segment>
+        <source>builder.refusal.pictures</source>
+        <target>A project holds up to {limit, plural, one {# picture} other {# pictures}}</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.projects">
+      <segment>
+        <source>builder.refusal.projects</source>
+        <target>Up to {limit, plural, one {# project} other {# projects}}: delete one to start another</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.recipient">
+      <segment>
+        <source>builder.refusal.recipient</source>
+        <target>No registered user has the email {email}</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.recipient_owner">
+      <segment>
+        <source>builder.refusal.recipient_owner</source>
+        <target>The project is yours already: give the email of another user</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.size">
+      <segment>
+        <source>builder.refusal.size</source>
+        <target>The pages of a project take up to {megabytes} MB: remove some blocks</target>
+      </segment>
+    </unit>
+    <unit id="builder.refusal.taken">
+      <segment>
+        <source>builder.refusal.taken</source>
+        <target>Pages or sections of the site take the paths {paths}</target>
+      </segment>
+    </unit>
+    <unit id="builder.saved">
+      <segment>
+        <source>builder.saved</source>
+        <target>The page is saved</target>
+      </segment>
+    </unit>
+    <unit id="builder.screen.desktop">
+      <segment>
+        <source>builder.screen.desktop</source>
+        <target>Computer</target>
+      </segment>
+    </unit>
+    <unit id="builder.screen.phone">
+      <segment>
+        <source>builder.screen.phone</source>
+        <target>Phone</target>
+      </segment>
+    </unit>
+    <unit id="builder.screen.tablet">
+      <segment>
+        <source>builder.screen.tablet</source>
+        <target>Tablet</target>
+      </segment>
+    </unit>
+    <unit id="builder.style">
+      <segment>
+        <source>builder.style</source>
+        <target>Style</target>
+      </segment>
+    </unit>
+    <unit id="builder.title">
+      <segment>
+        <source>builder.title</source>
+        <target>{title} · Builder</target>
+      </segment>
+    </unit>
+    <unit id="builder.trait.alt">
+      <segment>
+        <source>builder.trait.alt</source>
+        <target>Picture description</target>
+      </segment>
+    </unit>
+    <unit id="builder.trait.link">
+      <segment>
+        <source>builder.trait.link</source>
+        <target>Link</target>
+      </segment>
+    </unit>
+    <unit id="builder.traits">
+      <segment>
+        <source>builder.traits</source>
+        <target>Properties</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.accept">
+      <segment>
+        <source>builder.transfer.accept</source>
+        <target>Accept</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.accepted">
+      <segment>
+        <source>builder.transfer.accepted</source>
+        <target>accepted</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.action">
+      <segment>
+        <source>builder.transfer.action</source>
+        <target>Hand over</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.cancel">
+      <segment>
+        <source>builder.transfer.cancel</source>
+        <target>Cancel the transfer</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.cancelled">
+      <segment>
+        <source>builder.transfer.cancelled</source>
+        <target>cancelled by the sender</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.email">
+      <segment>
+        <source>builder.transfer.email</source>
+        <target>Email of the recipient</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.expired">
+      <segment>
+        <source>builder.transfer.expired</source>
+        <target>not accepted in time</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.offer">
+      <segment>
+        <source>builder.transfer.offer</source>
+        <target>«{name}» from {sender}, until {expires, date, ::yMMddjmm}</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.offered">
+      <segment>
+        <source>builder.transfer.offered</source>
+        <target>The project «{name}» waits for the recipient to accept it</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.offers">
+      <segment>
+        <source>builder.transfer.offers</source>
+        <target>Projects handed over to you</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.pending">
+      <segment>
+        <source>builder.transfer.pending</source>
+        <target>The project goes to {recipient} once accepted by {expires, date, ::yMMddjmm}</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.taken">
+      <segment>
+        <source>builder.transfer.taken</source>
+        <target>The project «{name}» is yours</target>
+      </segment>
+    </unit>
+    <unit id="builder.transfer.withdrawn">
+      <segment>
+        <source>builder.transfer.withdrawn</source>
+        <target>The transfer of the project «{name}» is cancelled</target>
+      </segment>
+    </unit>
+    <unit id="builder.undo">
+      <segment>
+        <source>builder.undo</source>
+        <target>Undo</target>
+      </segment>
+    </unit>
+    <unit id="builder.upload">
+      <segment>
+        <source>builder.upload</source>
+        <target>Upload project</target>
+      </segment>
+    </unit>
+    <unit id="builder.upload_file">
+      <segment>
+        <source>builder.upload_file</source>
+        <target>Project file</target>
+      </segment>
+    </unit>
+    <unit id="builder.uploaded">
+      <segment>
+        <source>builder.uploaded</source>
+        <target>{count, plural, one {# page is} other {# pages are}} uploaded unpublished</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
